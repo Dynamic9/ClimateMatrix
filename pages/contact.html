@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Dynamic 9 — Start a conversation about your engineering, AI, or robotics project.">
+    <title>Contact | Dynamic 9</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">D9</span>
+                <span class="logo-text">Dynamic <span class="accent">9</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#services">Services</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-cta active">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="container">
+            <div class="hero-badge">Let's Talk</div>
+            <h1>Get in <span class="accent">Touch</span></h1>
+            <p class="hero-subtitle">Have a project in mind? Need expert advice? Fill out the form below and we'll get back to you within 24 hours.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="you@company.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Your company (optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Area</label>
+                            <select id="service" name="service">
+                                <option value="" disabled selected>Select a service area</option>
+                                <option value="engineering">Engineering</option>
+                                <option value="ai">Artificial Intelligence</option>
+                                <option value="robotics">Robotics</option>
+                                <option value="multiple">Multiple / Not Sure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your project</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe your project, challenges, and goals..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">Send Message</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">&#10003;</div>
+                        <h3>Message Sent</h3>
+                        <p>Thanks for reaching out. We'll review your message and get back to you within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info Sidebar -->
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <h3>Other Ways to Reach Us</h3>
+                        <div class="contact-method">
+                            <h4>Email</h4>
+                            <p>hello@dynamic9.com</p>
+                        </div>
+                        <div class="contact-method">
+                            <h4>Location</h4>
+                            <p>Available for remote and on-site consulting worldwide.</p>
+                        </div>
+                        <div class="contact-method">
+                            <h4>Response Time</h4>
+                            <p>We typically respond within 24 hours on business days.</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <h3>What Happens Next?</h3>
+                        <ol class="next-steps">
+                            <li>We review your message and research your requirements</li>
+                            <li>We schedule a free 30-minute discovery call</li>
+                            <li>We provide a tailored proposal with scope, timeline, and pricing</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">D9</span>
+                        <span class="logo-text">Dynamic <span class="accent">9</span></span>
+                    </a>
+                    <p>Engineering, AI & Robotics consulting for organizations building the future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="../index.html#services">Engineering</a></li>
+                        <li><a href="../index.html#services">Artificial Intelligence</a></li>
+                        <li><a href="../index.html#services">Robotics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="tools.html">Tools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dynamic 9. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

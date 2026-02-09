@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dynamic 9 — Engineering, AI & Robotics consulting services. We help businesses innovate through cutting-edge technology solutions.">
+    <title>Dynamic 9 | Engineering, AI & Robotics Consulting</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">D9</span>
+                <span class="logo-text">Dynamic <span class="accent">9</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="pages/tools.html">Tools</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/contact.html" class="nav-cta">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">Engineering the Future</div>
+            <h1>We Build What's <span class="accent">Next</span></h1>
+            <p class="hero-subtitle">
+                Dynamic 9 delivers expert consulting at the intersection of
+                <strong>engineering</strong>, <strong>artificial intelligence</strong>,
+                and <strong>robotics</strong>. From concept to deployment, we help
+                organizations harness transformative technologies.
+            </p>
+            <div class="hero-actions">
+                <a href="pages/contact.html" class="btn btn-primary">Start a Project</a>
+                <a href="#services" class="btn btn-outline">Explore Services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="12">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Core Disciplines</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Do</span>
+                <h2>Consulting Services</h2>
+                <p>We provide end-to-end consulting across three core technology domains, helping you move from idea to implementation.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Engineering -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 38L24 6l18 32H6z"/>
+                            <circle cx="24" cy="28" r="4"/>
+                            <line x1="24" y1="14" x2="24" y2="22"/>
+                        </svg>
+                    </div>
+                    <h3>Engineering</h3>
+                    <p>
+                        Systems design, structural analysis, process optimization, and
+                        product development. We bring rigorous engineering discipline
+                        to every challenge.
+                    </p>
+                    <ul class="service-list">
+                        <li>Mechanical & Structural Design</li>
+                        <li>Systems Engineering</li>
+                        <li>Process Optimization</li>
+                        <li>Prototyping & Testing</li>
+                    </ul>
+                    <a href="pages/contact.html" class="service-link">Learn more &rarr;</a>
+                </div>
+
+                <!-- AI -->
+                <div class="service-card featured">
+                    <div class="service-badge">High Demand</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="24" cy="24" r="8"/>
+                            <circle cx="10" cy="12" r="4"/>
+                            <circle cx="38" cy="12" r="4"/>
+                            <circle cx="10" cy="36" r="4"/>
+                            <circle cx="38" cy="36" r="4"/>
+                            <line x1="18" y1="19" x2="13" y2="15"/>
+                            <line x1="30" y1="19" x2="35" y2="15"/>
+                            <line x1="18" y1="29" x2="13" y2="33"/>
+                            <line x1="30" y1="29" x2="35" y2="33"/>
+                        </svg>
+                    </div>
+                    <h3>Artificial Intelligence</h3>
+                    <p>
+                        Machine learning strategy, model development, data pipelines,
+                        and AI integration. We make AI practical and production-ready
+                        for your business.
+                    </p>
+                    <ul class="service-list">
+                        <li>ML Model Development</li>
+                        <li>Computer Vision Systems</li>
+                        <li>NLP & Conversational AI</li>
+                        <li>AI Strategy & Roadmapping</li>
+                    </ul>
+                    <a href="pages/contact.html" class="service-link">Learn more &rarr;</a>
+                </div>
+
+                <!-- Robotics -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="14" y="8" width="20" height="16" rx="3"/>
+                            <circle cx="20" cy="16" r="2"/>
+                            <circle cx="28" cy="16" r="2"/>
+                            <line x1="20" y1="20" x2="28" y2="20"/>
+                            <rect x="10" y="28" width="28" height="12" rx="3"/>
+                            <line x1="24" y1="24" x2="24" y2="28"/>
+                            <line x1="16" y1="40" x2="16" y2="44"/>
+                            <line x1="32" y1="40" x2="32" y2="44"/>
+                        </svg>
+                    </div>
+                    <h3>Robotics</h3>
+                    <p>
+                        Robotic system design, automation solutions, ROS development,
+                        and autonomous systems. We bring intelligent machines from
+                        the lab to the field.
+                    </p>
+                    <ul class="service-list">
+                        <li>Robotic System Design</li>
+                        <li>Industrial Automation</li>
+                        <li>Autonomous Navigation</li>
+                        <li>Sensor Integration</li>
+                    </ul>
+                    <a href="pages/contact.html" class="service-link">Learn more &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How We Work</span>
+                <h2>Our Process</h2>
+                <p>A structured approach that keeps projects on track, on budget, and aligned with your goals.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Discover</h3>
+                    <p>We learn your business, define the problem space, and identify opportunities where technology creates real value.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Design</h3>
+                    <p>Architecture, prototyping, and technical planning. We map the solution before writing a single line of code.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Develop</h3>
+                    <p>Iterative engineering with regular checkpoints. You stay informed and in control throughout development.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Deploy</h3>
+                    <p>Launch, monitor, and optimize. We ensure your solution performs in the real world, not just in the lab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Teaser -->
+    <section class="tools-teaser">
+        <div class="container">
+            <div class="tools-teaser-inner">
+                <div class="tools-teaser-content">
+                    <span class="section-tag">Free Resources</span>
+                    <h2>Engineering Tools</h2>
+                    <p>
+                        Access our growing library of free engineering calculators,
+                        AI demos, and robotics simulators. Built by engineers, for engineers.
+                    </p>
+                    <a href="pages/tools.html" class="btn btn-primary">Browse Tools</a>
+                </div>
+                <div class="tools-teaser-grid">
+                    <div class="tool-preview">
+                        <div class="tool-preview-icon">&#9881;</div>
+                        <span>Unit Converter</span>
+                    </div>
+                    <div class="tool-preview">
+                        <div class="tool-preview-icon">&#9889;</div>
+                        <span>Load Calculator</span>
+                    </div>
+                    <div class="tool-preview">
+                        <div class="tool-preview-icon">&#128202;</div>
+                        <span>Data Visualizer</span>
+                    </div>
+                    <div class="tool-preview">
+                        <div class="tool-preview-icon">&#129302;</div>
+                        <span>AI Readiness Quiz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to build something extraordinary?</h2>
+                <p>Let's discuss how Dynamic 9 can accelerate your next project.</p>
+                <a href="pages/contact.html" class="btn btn-primary btn-lg">Start the Conversation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">D9</span>
+                        <span class="logo-text">Dynamic <span class="accent">9</span></span>
+                    </a>
+                    <p>Engineering, AI & Robotics consulting for organizations building the future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Engineering</a></li>
+                        <li><a href="#services">Artificial Intelligence</a></li>
+                        <li><a href="#services">Robotics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="pages/tools.html">Tools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dynamic 9. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
